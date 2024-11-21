@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>welcome to genius studios</h1>
+    <h3>we help in helping you find job,and providing <br> jobs thay bring you joy</h3>
+    <br>
+    <form>
+        <p>name</p><input type="text" placeholder="not more than 40 word" maxlength="40"><br>
+        <p>user name</p><input type="text" placeholder="not more than 30 word" maxlength="40"><br>
+        <p>type of job you are searching for</p><input type="text" placeholder="input the job you are searching for">
+    </form>
+    <script>
+        let age = prompt("enter your age")
+const verifyAge = Number(age) >= 18
+if (verifyAge == true){
+    document.write("<h2>you are qualified,you can now search for any job you want to apply for </h2>")
+}
+if (verifyAge ==false){
+    document.write("<h2>sorry, you are not qualified!!!</h2>")
+}
+    </script>
+</body>
+</html>
